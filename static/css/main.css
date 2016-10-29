@@ -1,0 +1,55 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+	font-family: "Lato";
+	background-color:#f3f3f3;
+}
+.container{
+	background-color:white;
+	max-width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+	width:40%;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+ul {
+	list-style:none;
+}
+.slotMachine{
+}
+.slotContainer{
+	overflow: hidden;
+
+	color: darkgray;
+
+	margin-top:1em;
+	font-size:1.7em;
+	height: 1.7em;
+	line-height: 1.7em;
+	border: 2px solid gray;
+	border-radius:4px;
+	max-width: 50%;
+}
+.slotMachineContainer div{
+	padding:.2em;
+}
+.slotMachineContainer div:nth-child(even) {
+    background: darkgray;
+    color:#fff;
+}
+
+.button{
+	font-size: 3em;
+	cursor: pointer;
+	width:3em;
+}
+.button.active{
+	color:red;
+}

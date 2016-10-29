@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  div
+    h1.center #{title}
+
+    div.clear
+
+    div.slotContainer.center
+      div.slotMachine
+        each val in topics
+          div= val
+
+    div.clear
+
+    div.button.center
+      span 🎰
+
+  script(src="//code.jquery.com/jquery-2.1.1.min.js")
+  script(src="//josex2r.github.io/jQuery-SlotMachine/dist/jquery.slotmachine.js")
+
+  script.
+    $(document).ready(function(){
+      var machine = $(".slotMachine").slotMachine({
+      });
+      $(".button").on("mousedown", function(){
+        var btn = $(this);
+        btn.addClass("active");
+        machine.shuffle(2, function(){
+          btn.removeClass("active");
+        })
+      });
+
+    });

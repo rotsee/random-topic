@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div
+    h1.center Banditen
+
+    div.clear
+
+    p Välj ett ämne för att starta banditen. Lägg till ett ämne genom att placera en fil med ämnnesord under <code>/topics</code>, och uppdatera <code>availableTopics</code> i <code>app.js</code>.
+
+    h2 Tillgängliga ämnen:
+
+    ul
+      each topic in topics
+        li
+          a(href="/"+topic.slug) #{topic.title}
