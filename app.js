@@ -8,6 +8,10 @@ var availableTopics = {
   skola: {
     slug: "skola",
     title: "Skolbanditen"
+  },
+  sverigesradio: {
+    slug: "sverigesradio",
+    title: "Radiobanditen"
   }
 }
 
