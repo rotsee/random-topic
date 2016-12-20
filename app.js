@@ -12,6 +12,10 @@ var availableTopics = {
   sverigesradio: {
     slug: "sverigesradio",
     title: "Radiobanditen"
+  },
+  viralgranskningar: {
+    slug: "viralgranskningar",
+    title: "Viralbanditen"
   }
 }
 
