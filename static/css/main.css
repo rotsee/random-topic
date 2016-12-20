@@ -30,12 +30,12 @@ ul {
 	color: darkgray;
 
 	margin-top:1em;
-	font-size:1.4em;
-	height: 1.7em;
+	font-size:1.3em;
+	height: 1.9em;
 	line-height: 1.7em;
 	border: 2px solid gray;
 	border-radius:4px;
-	max-width: 75%;
+	max-width: 85%;
 }
 .slotMachineContainer div{
 	padding:.2em;
@@ -46,9 +46,12 @@ ul {
 }
 
 .button{
-	font-size: 3em;
+	font-size: 5em;
 	cursor: pointer;
 	width:3em;
+}
+.button:hover{
+	font-size: 5.2em;
 }
 .button.active{
 	color:red;

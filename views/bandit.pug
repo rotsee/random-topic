@@ -1,13 +1,14 @@
 extends layout
 
 block content
-  div
+  div#container
     h1.center #{title}
 
     div.clear
 
     div.slotContainer.center
       div.slotMachine
+        div Tryck på knappen!
         each val in topics
           div= val
 
@@ -30,5 +31,8 @@ block content
           btn.removeClass("active");
         })
       });
+      if ($(window).height() > $("#container").height() ) {
+        $("#container").height($(window).height());
+      }
 
     });
