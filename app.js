@@ -16,6 +16,14 @@ var availableTopics = {
   viralgranskningar: {
     slug: "viralgranskningar",
     title: "Viralbanditen"
+  },
+  parliament: {
+    slug: "parliament",
+    title: "Parlamentsbanditen"
+  },
+  interpellationer: {
+    slug: "interpellationer",
+    title: "Interpellationsbanditen"
   }
 }
 
