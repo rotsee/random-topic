@@ -17,6 +17,9 @@ block content
     div.button.center
       span 🎰
 
+    div#back-button.left
+      span ❤
+
   script(src="//code.jquery.com/jquery-2.1.1.min.js")
   script(src="//josex2r.github.io/jQuery-SlotMachine/dist/jquery.slotmachine.js")
 
@@ -35,4 +38,11 @@ block content
         $("#container").height($(window).height());
       }
 
+    });
+
+  script.
+    $(document).ready(function(){
+      $("#back-button").on("mousedown", function(){
+        history.back()
+      });
     });

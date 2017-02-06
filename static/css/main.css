@@ -45,12 +45,12 @@ ul {
     color:#fff;
 }
 
-.button{
+.button, #back-button{
 	font-size: 5em;
 	cursor: pointer;
 	width:3em;
 }
-.button:hover{
+.button:hover, #back-button:hover{
 	font-size: 5.2em;
 }
 .button.active{
