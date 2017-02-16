@@ -5,6 +5,10 @@ var favicon = require('serve-favicon')
 var app = express()
 
 var availableTopics = {
+  val: {
+    slug: "val",
+    title: "Valbanditen"
+  },
   skola: {
     slug: "skola",
     title: "Skolbanditen"
