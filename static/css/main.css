@@ -48,12 +48,12 @@ ul {
     color:#fff;
 }
 
-.button, #back-button{
+.button{
 	font-size: 5em;
 	cursor: pointer;
 	width:3em;
 }
-.button:hover, #back-button:hover{
+.button:hover{
 	font-size: 5.2em;
 }
 .button.active{
